@@ -68,6 +68,9 @@ https://<your-username>.github.io/career-app/
 ## Working link
 You can view the website here {https://huggingface.co/spaces/syedanaazimaunnisa/One-stop-personalized-career-platform}
 
+## Demo video
+you can view the demo video with 3 working features here {https://drive.google.com/file/d/1M3hckpxK4HgTRcswGmcBfRrizmX0_S2b/view?usp=sharing}
+
 ## 📜 License
 
 This project is licensed under the MIT License – feel free to use and modify.
