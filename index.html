@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>One-Stop Career & Education Advisor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="lang.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html" data-translate="nav.home"></a></li>
+      <li><a href="test.html" data-translate="nav.test"></a></li>
+      <li><a href="colleges.html" data-translate="nav.colleges"></a></li>
+      <li><a href="courses.html" data-translate="nav.courses"></a></li>
+    </ul>
+    <select onchange="setLanguage(this.value)">
+      <option value="en">English</option>
+      <option value="hi">हिंदी</option>
+      <option value="te">తెలుగు</option>
+      <option value="ur">اردو</option>
+    </select>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 data-translate="hero.title"></h1>
+    <p data-translate="hero.subtitle"></p>
+
+    <a href="test.html">
+      <button data-translate="hero.startTest"></button>
+    </a>
+    <a href="colleges.html">
+      <button data-translate="hero.exploreColleges"></button>
+    </a>
+  </section>
+
+  <!-- Quick Links Section -->
+  <section class="college-list">
+    <div class="card">
+      <h2>Take Aptitude Test</h2>
+      <p>Answer 10 quick questions and get personalized course & college recommendations.</p>
+      <a href="test.html"><button>Start Now</button></a>
+    </div>
+
+    <div class="card">
+      <h2>Explore Courses</h2>
+      <p>Browse through a wide range of professional, medical, commerce, and arts programs.</p>
+      <a href="courses.html"><button>View Courses</button></a>
+    </div>
+
+    <div class="card">
+      <h2>Government Colleges</h2>
+      <p>Check out top government institutions and their specialities across India.</p>
+      <a href="colleges.html"><button>View Colleges</button></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p data-translate="footer.rights"></p>
+  </footer>
+</body>
+</html>
