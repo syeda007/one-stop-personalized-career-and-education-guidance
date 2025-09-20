@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Courses</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="lang.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html" data-translate="nav.home"></a></li>
+      <li><a href="test.html" data-translate="nav.test"></a></li>
+      <li><a href="colleges.html" data-translate="nav.colleges"></a></li>
+      <li><a href="courses.html" data-translate="nav.courses"></a></li>
+    </ul>
+    <select onchange="setLanguage(this.value)">
+      <option value="en">English</option>
+      <option value="hi">हिंदी</option>
+      <option value="te">తెలుగు</option>
+      <option value="ur">اردو</option>
+    </select>
+  </nav>
+
+  <!-- Courses -->
+  <section class="course-list">
+    <h1 data-translate="nav.courses"></h1>
+
+    <div class="card">
+      <h2>B.Tech in Computer Science</h2>
+      <p><strong>Speciality:</strong> Programming & Artificial Intelligence</p>
+      <p>Focuses on algorithms, data structures, machine learning, and real-world applications in IT and AI.</p>
+    </div>
+
+    <div class="card">
+      <h2>MBBS</h2>
+      <p><strong>Speciality:</strong> Medicine</p>
+      <p>Trains students in clinical skills, surgery, and diagnostics to become qualified doctors.</p>
+    </div>
+
+    <div class="card">
+      <h2>BA in Political Science</h2>
+      <p><strong>Speciality:</strong> Governance & Policy</p>
+      <p>Covers political theory, public administration, and international relations.</p>
+    </div>
+
+    <div class="card">
+      <h2>B.Com</h2>
+      <p><strong>Speciality:</strong> Finance & Business</p>
+      <p>Focuses on accounting, business law, taxation, and economics for careers in commerce.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p data-translate="footer.rights"></p>
+  </footer>
+</body>
+</html>
