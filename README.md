@@ -40,7 +40,7 @@ career-app/
 2. Open index.html in your browser.
 (No backend required, it’s a static site!)
 
-🌍 Deployment
+## 🌍 Deployment
 
 You can deploy this project for free:
 
@@ -57,7 +57,7 @@ https://<your-username>.github.io/career-app/
 
 5.Hugging Face Spaces (Static HTML app option).
 
-📸 Screenshots
+## 📸 Screenshots
 <img width="1366" height="795" alt="image" src="https://github.com/user-attachments/assets/ef77110a-6e0e-406d-9186-e0c2c6ccf5ef" />
 <img width="1366" height="897" alt="image" src="https://github.com/user-attachments/assets/19f9d2a0-1c73-4662-8cb3-b43e1a8c1099" />
 <img width="1366" height="607" alt="image" src="https://github.com/user-attachments/assets/a82799a5-92f3-44f5-9a9b-75129e6d6fdd" />
@@ -65,9 +65,10 @@ https://<your-username>.github.io/career-app/
 <img width="1360" height="445" alt="image" src="https://github.com/user-attachments/assets/443f7af8-f44a-4763-a5de-252f18318f07" />
 <img width="1366" height="448" alt="image" src="https://github.com/user-attachments/assets/aceb8e2f-dc40-486d-b2da-5c7e59a92894" />
 
-Working link
+## Working link
 You can view the website here {https://huggingface.co/spaces/syedanaazimaunnisa/One-stop-personalized-career-platform}
-📜 License
+
+## 📜 License
 
 This project is licensed under the MIT License – feel free to use and modify.
 
