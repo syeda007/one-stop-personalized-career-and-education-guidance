@@ -65,6 +65,8 @@ https://<your-username>.github.io/career-app/
 <img width="1360" height="445" alt="image" src="https://github.com/user-attachments/assets/443f7af8-f44a-4763-a5de-252f18318f07" />
 <img width="1366" height="448" alt="image" src="https://github.com/user-attachments/assets/aceb8e2f-dc40-486d-b2da-5c7e59a92894" />
 
+Working link
+You can view the website here {https://huggingface.co/spaces/syedanaazimaunnisa/One-stop-personalized-career-platform}
 📜 License
 
 This project is licensed under the MIT License – feel free to use and modify.
