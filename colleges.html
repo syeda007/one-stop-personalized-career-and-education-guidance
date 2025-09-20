@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Government Colleges</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="lang.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html" data-translate="nav.home"></a></li>
+      <li><a href="test.html" data-translate="nav.test"></a></li>
+      <li><a href="colleges.html" data-translate="nav.colleges"></a></li>
+      <li><a href="courses.html" data-translate="nav.courses"></a></li>
+    </ul>
+    <select onchange="setLanguage(this.value)">
+      <option value="en">English</option>
+      <option value="hi">हिंदी</option>
+      <option value="te">తెలుగు</option>
+      <option value="ur">اردو</option>
+    </select>
+  </nav>
+
+  <!-- Colleges -->
+  <section class="college-list">
+    <h1 data-translate="nav.colleges"></h1>
+
+    <div class="card">
+      <h2>Indian Institute of Technology, Bombay</h2>
+      <p><strong>Speciality:</strong> Engineering & Technology</p>
+      <p>Renowned for excellence in Computer Science, AI, and Mechanical Engineering with top research facilities.</p>
+    </div>
+
+    <div class="card">
+      <h2>AIIMS Delhi</h2>
+      <p><strong>Speciality:</strong> Medicine & Healthcare</p>
+      <p>India’s top medical institute with cutting-edge research, MBBS programs, and specialized medical fields.</p>
+    </div>
+
+    <div class="card">
+      <h2>Jawaharlal Nehru University</h2>
+      <p><strong>Speciality:</strong> Social Sciences & Languages</p>
+      <p>Famous for research in humanities, international relations, and language studies.</p>
+    </div>
+
+    <div class="card">
+      <h2>National Institute of Technology, Trichy</h2>
+      <p><strong>Speciality:</strong> Core Engineering</p>
+      <p>Strong programs in Civil, Electrical, and Chemical Engineering with top campus placements.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p data-translate="footer.rights"></p>
+  </footer>
+</body>
+</html>
