@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aptitude Test</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="lang.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html" data-translate="nav.home"></a></li>
+      <li><a href="test.html" data-translate="nav.test"></a></li>
+      <li><a href="colleges.html" data-translate="nav.colleges"></a></li>
+      <li><a href="courses.html" data-translate="nav.courses"></a></li>
+    </ul>
+    <select onchange="setLanguage(this.value)">
+      <option value="en">English</option>
+      <option value="hi">हिंदी</option>
+      <option value="te">తెలుగు</option>
+      <option value="ur">اردو</option>
+    </select>
+  </nav>
+
+  <!-- Test Section -->
+  <section class="hero">
+    <h1 data-translate="nav.test"></h1>
+    <p>Answer all questions and get a personalized course + college recommendation.</p>
+  </section>
+
+  <section class="test-area">
+    <div id="testContainer">
+      <button onclick="loadQuestion()">Start Test</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p data-translate="footer.rights"></p>
+  </footer>
+</body>
+</html>
